@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  </head>
+  <body>
+    <div class="navbar">
+      <nav>
+          <a class="title" href="#">Weather App</a>
+          <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About this App</a></li>
+              <li><a href="">Forecast</a></li>
+              <li><a href="">Guide</a></li>
+              <li><input type="text" id="cityInput" placeholder="Enter Location" />
+                <button id="btn" onclick="fetchWeather()">Search</button></li>
+          </ul>
+      </nav>
+  </div>  
+    <div id="main">
+      <div id="weatherData"></div>
+      <h2 id="heading2">Weather Data of Popular Cities</h2>
+    <table id="weather-table">
+        <thead>
+            <tr>
+                <th>City</th>
+                <th>Temperature (°C)</th>
+                <th>Max Temperature</th>
+                <th>Min Temperature</th> 
+                <th>Wind Speed</th>
+                <th>Humidity</th>
+            </tr>
+        </thead>
+        <tbody>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

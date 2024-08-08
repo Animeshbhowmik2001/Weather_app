@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(cover.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color:rgba(6, 24, 58, 0.836);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.842);
+    font-size: large;
+}
+li a:hover{
+    color: rgb(228, 228, 135);
+    text-decoration: none;
+    padding-bottom: 15px;
+            border-bottom-style: solid;
+            border-bottom-width: 3.1px;
+            width: fit-content;
+            cursor: pointer;
+}
+
+.title{
+    text-decoration: none;
+    margin: 10px 10px;
+    color: rgb(228, 228, 135);
+    font-size:x-large;
+}
+#cityInput{
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 350px;
+    width: 300px;
+}
+#btn{
+    padding: 10px;
+    border-radius: 10px;
+    border: transparent;
+}
+#btn:hover{
+    background-color: skyblue;
+    cursor: pointer;
+    
+}
+#weather-data{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: row;
+}
+#temp{
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.842);
+    margin-left: 120px;
+}
+#date-time{
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.842);
+    margin-left: 40px;
+}
+#cityName{
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(228, 228, 135);
+    font-weight: lighter;
+    font-size: 35px;
+}
+#image{
+    height: 200px;
+    width: 200px;
+}
+#heading2{
+    color: rgb(228, 228, 135);
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+#weather-table{
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.842);
+    margin: auto;
+}
+table,th,td{
+    border: 1px solid rgba(255, 255, 255, 0.842);
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+}
+#weather-info{
+    display: flex;
+    justify-content: center;
+    
+}
+#sunset-sunrise{
+    color: rgba(255, 255, 255, 0.842);
+    text-align: justify;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+#humidity{
+    color: rgba(255, 255, 255, 0.842);
+    margin-top: 40px;
+    text-align: justify;
+}
